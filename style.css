@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eaeaea;
+  font-family: "Roboto", sans-serif;
+  color: #39393a;
+  padding: 0 25px;
+}
+img{
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  height: 600px;
+  border-radius: 2%;
+}
+#receita {
+  background-color: #ffffff;
+  border-radius: 2%;
+  padding: 0 30px;
+}
+#ingredientesEmododepreparo {
+  line-height: 26px;
+  list-style-position: outside;
+}
+
+/*Títulos, subtítulos ...*/
+h1, h2, h3 {
+  color: #1b1b1b;
+}
+h1 {
+  font-size: 28px;
+  text-align: center;
+  padding: 50px 0 28px 0;
+}
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+h3 {
+  font-size: 18px;
+}
+/*footer e legenda da imagem*/
+footer,figcaption {
+  color: #8f8f8f;
+  font-size: 12px;
+}
+figcaption{
+  text-align: right;
+}
+

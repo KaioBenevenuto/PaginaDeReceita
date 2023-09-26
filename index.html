@@ -1,90 +1,192 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Receita</title>
-  <link rel="stylesheet" href="...">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receita</title>
+    <link rel="stylesheet" href="style.css" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Inter:wght@400;500&family=Merriweather:ital@0;1&family=Quicksand:wght@300&family=Tektur&display=swap" rel="stylesheet">
-</head>
-<body>
-  <h1>Bolo de cenoura</h1>
-  <figure>
-    <img src="assets/bolo-de-cenoura.jpg" alt="Bolo de cenoura com cobertura de chocolate">
-    <figcaption>Receita de bolo de cenoura com cobertura de chocolate</figcaption>
-  </figure>
-  <div id="container">
-    <h2>Ingredientes</h2>
-    <h3>Massa</h3>
-    <ul>
-      <li><p>1/2 xícara (chá) de óleo;</p></li>
-      <li><p>3 cenouras médias raladas;</p></li>
-      <li><p>4 ovos;</p></li>
-      <li><p>2 xícaras (chá) de açúcar;</p></li>
-      <li><p>2 e 1/2 xícaras (chá) de farinha de trigo;</p></li>
-      <li><p>1 colher (sopa) de fermento em pó.</p></li>
-    </ul>
-    <h3>Cobertura</h3>
-    <ul>
-      <li><p>1 colher (sopa) de manteiga;</p></li>
-      <li><p>3 colheres (sopa) de chocolate em pó;</p></li>
-      <li><p>1 xícara (chá) de açúcar;</p></li>
-      <li><p>1 xícara (chá) de leite;</p></li>
-    </ul>
-    <h2>Mode de preparo</h2>
-    <h3>Massa</h3>
-    <ol>
-      <li>
-        <p>Em um liquidificador, adicione a cenoura, os ovos e o óleo, depois misture.</p>
-      </li>
-      <li>
-        <p>Acrescente o açúcar e bata novamente por 5 minutos.</p>
-      </li>
-      <li>
-        <p>Em uma tigela ou na batedeira, adicione a farinha de trigo e depois misture novamente.</p>
-      </li>
-      <li>
-        <p>Acrescente o fermento e misture lentamente com uma colher.</p>
-      </li>
-      <li>
-        <p>Asse em um forno preaquecido a 180°C por aproximadamente 40 minutos.</p>
-      </li>
-    </ol>
-    <h3>Cobertura</h3>
-    <ol>
-      <li>
-        <p>Despeje em uma tigela a manteiga, o chocolate em pó, o açúcar e o leite, depois misture.</p>
-      </li>
-      <li>
-        <p>Leve a mistura ao fogo e continue misturando até obter uma consistência cremosa, depois despeje a calda por cima do bolo.</p>
-      </li>
-    </ol>
-    <h2>Informações adicionais</h2>
-    <p>Para fazer seu bolo de cenoura de liquidificador de uma vez só é preciso um liquidificador potente, mas se achar a massa pesada para o seu aparelho, corte a cenoura em pedaços bem pequenos e só bata no aparelho os ingredientes úmidos. Depois que estiver tudo homogêneo, incorpore a mistura líquida aos ingredientes secos, mexendo bem e delicadamente. Além de poupar o seu liquidificador, misturar os ingredientes secos delicadamente com a mão também é o segredo para o seu bolo de cenoura não solar.</p>
-  
-    <p>A receita de bolo de cenoura pode ser complicada porque exige alguns pequenos detalhes que garantem o resultado perfeito. Uma delas é a proporção de cenoura, que precisa ser correta para a receita que você está fazendo. Por isso, para ter certeza de que não irá fazer um bolo solado, você pode utilizar a mesma medida da nossa receita de ovo bolo de cenoura, cerca de 250 g de cenoura para 2 copos de farinha de trigo.</p>
-    
-    <p>Para garantir o seu bolo de cenoura fofinho, lembre-se de testar o fermento antes de adicioná-lo à massa e peneire a farinha de trigo! Isso vai garantir que um bolo de cenoura fofo, leve e ainda mais delicioso!</p>
-    
-    <p>Se você prefere um bolo de cenoura cremoso, faça uma calda para umedecer seu bolo! Basta adicionar 1 xícara de açúcar e 1 xícara de água em uma leiteira e, assim que levantar fervura, desligue o fogo. Quando esfriar completamente, você pode regar seu bolo. Se quiser incrementar essa mistura para deixar ainda mais gostoso e dar um perfume ao seu bolo de cenoura, você pode adicionar raspas de laranja, essência de baunilha ou um pouco de canela. Dessa forma, você vai ter um bolo de cenoura molhadinho e delicioso!</p>
-  </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Cookies com gotas de chocolate</h1>
+    <figure>
+      <img
+        src="assets/cookies.jpg"
+        alt="Foto de cookies com gotas de chocolate e um copo de leite no fundo, fotografada por Christina Branco"
+        width="auto"
+        height="500"
+      />
+      <figcaption>Receita de cookies com gotas de chocolate</figcaption>
+    </figure>
+    <div id="receita">
+      <div id="ingredientesEmododepreparo">
+        <h2>Ingredientes</h2>
+        <ul>
+          <li>
+            <p>
+              200 g de chocolate amargo 70% cacau em gotas (cerca de 1 ½
+              xícara). Se preferir cookies mais doces, pode trocar o chocolate;
+            </p>
+          </li>
+          <li><p>100 g de manteiga gelada em cubos;</p></li>
+          <li><p>½ xícara (chá) de açúcar mascavo;</p></li>
+          <li><p>⅓ de xícara (chá) de açúcar;</p></li>
+          <li><p>1¾ de xícara (chá) de farinha de trigo;</p></li>
+          <li><p>1 colher (chá) de fermento em pó;</p></li>
+          <li><p>⅛ de colher (chá) de bicarbonato de sódio;</p></li>
+          <li><p>1 pitada de sal;</p></li>
+          <li><p>1 ovo.</p></li>
+        </ul>
 
-  <footer>
-    <a href="https://github.com/KaioBenevenuto" target="_blank">
-      <ion-icon name="logo-github"></ion-icon>
-    </a>
-    <a
-      href="https://www.linkedin.com/in/kaio-benevenuto-hoffman/"
-      target="_blank"
-    >
-      <ion-icon name="logo-linkedin"></ion-icon>
-    </a>
-  </footer>
+        <h2>Mode de preparo</h2>
+        <ol>
+          <li>
+            <p>
+              Numa tigela, misture a farinha, o fermento, o bicarbonato e o sal.
+              Numa tigela pequena, quebre o ovo e reserve.
+            </p>
+          </li>
+          <li>
+            <p>
+              Coloque a manteiga gelada na batedeira e bata com a raquete por 20
+              segundos para deixá-la levemente macia – não é preciso atingir o
+              ponto pomada, é só para facilitar na hora de misturar os outros
+              ingredientes.
+            </p>
+          </li>
+          <li>
+            <p>
+              Junte o açúcar mascavo e o açúcar refinado e bata por mais 30
+              segundos, até formar uma farofa úmida. Acrescente o chocolate e
+              bata apenas para misturar.
+            </p>
+          </li>
+          <li>
+            <p>
+              Adicione a mistura de farinha e bata por alguns segundos, até
+              formar uma farofa mais seca. Junte o ovo e bata por cerca de 1
+              minuto até a massa ficar úmida e sem pedacinhos de farinha – o
+              processo é bem rápido mesmo, a ideia é apenas incorporar os
+              ingredientes de maneira uniforme, a massa não deve ser batida em
+              excesso para evitar o desenvolvimento do glúten, o que deixaria o
+              cookie mais pesado.
+            </p>
+          </li>
+          <li>
+            <p>
+              Para modelar os cookies: separe ¼ de xícara (chá) da massa para
+              cada cookie, pressionando e nivelando no medidor – isso garante
+              que todos tenham o mesmo tamanho e assem por igual. Com as mãos,
+              modele cada porção em bolas e achate, formando discos com cerca de
+              7 cm de diâmetro. Transfira para uma assadeira grande, deixando
+              cerca de 2 cm entre cada um.
+            </p>
+          </li>
+          <li>
+            <p>
+              Leve a assadeira ao congelador por pelo menos 1h30 – esse descanso
+              é essencial para o cookie ficar com a textura perfeita: crocante
+              por fora e úmido por dentro.
+            </p>
+          </li>
+          <li>
+            <p>
+              Faltando 30 minutos para o fim do descanso, preaqueça o forno a
+              180°C (temperatura média).
+            </p>
+          </li>
+          <li>
+            <p>
+              Leve a assadeira com os cookies ao forno para assar por cerca de
+              15 minutos. Atenção para o ponto: os cookies inflam, ficam
+              levemente dourados na lateral, mas ainda molinhos no centro – a
+              casquinha vai ficar crocante após esfriar.
+            </p>
+          </li>
+          <li>
+            <p>
+              Retire do forno e espere 15 minutos antes de consumir, assim os
+              cookies ficam crocantes por fora e úmidos por dentro. Sirva a
+              seguir.
+            </p>
+          </li>
+        </ol>
+      </div>
+      <h2>Informações adicionais</h2>
 
-  <script
+      <h3>Pode congelar</h3>
+      <p>
+        Os cookies podem ser congelados crus. Duram 1 mês. Depois que estiverem
+        firmes, transfira para um saco (ou pote) e asse apenas a quantidade
+        desejada na hora de servir.
+      </p>
+
+      <h3>Cookie sem batedeira</h3>
+      <p>
+        É possível fazer a receita sem batedeira, mas o processo de preparo é
+        mais demorado e requer um pouco mais de “força”. Siga o passo a passo,
+        mas usando uma tigela grande e uma espátula resistente, como de bambu ou
+        madeira, para misturar os ingredientes. Os tempos mudam um pouco.
+        <br /><br />
+        Para deixar a manteiga macia: 2 minutos
+        <br /><br />
+        Para incorporar a farinha: 3 minutos.
+        <br /><br />
+        Atenção na hora acrescentar o ovo: comece misturando os ingredientes com
+        a espátula e termine de dar o ponto, apertando a massa com as mãos sem
+        sovar – cuidado para não aquecer a massa com o calor das mãos e, com
+        isso, amolecer demais a manteiga.
+      </p>
+
+      <h3>Cookies na airfryer</h3>
+      <p>
+        Preaqueça a AirFryer da linha Electrolux por Rita Lobo a 160 ºC e
+        programe para assar por 10 minutos.
+        <br />
+        Retire 3 cookies do congelador e coloque no cesto da AirFryer, deixando
+        espaço entre cada um — os cookies crescem ao assar. Deixe assar por 10
+        minutos (nem precisa virar). Retire o cesto da AirFryer para que os
+        cookies descansem (ainda no cesto) por cerca de 10 minutos e terminem de
+        firmar — assim fica mais fácil tirar os cookies do cesto sem que rachem.
+      </p>
+
+      <h3>Dica de modelagem</h3>
+      <p>
+        Se preferir, você pode modelar os cookies usando um boleador de sorvete.
+        Eles ficam um pouco mais gordinhos no centro e com a aparência mais
+        rústica, mas igualmente deliciosos.
+      </p>
+    </div>
+
+    <div id="socialLinks">
+      <a href="https://github.com/KaioBenevenuto" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/kaio-benevenuto-hoffman/"
+        target="_blank"
+      >
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+    </div>
+    <footer>
+      <a href="https://panelinha.com.br/receita/cookie-com-gotas-de-chocolate"
+        >Receita</a
+      >
+      |
+      <a
+        href="https://unsplash.com/pt-br/@starvingartistfoodphotography/curtidas"
+        >Imagem</a
+      >
+    </footer>
+
+    <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
     ></script>
@@ -92,5 +194,5 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-</body>
+  </body>
 </html>
