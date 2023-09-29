@@ -46,32 +46,20 @@ h1, h2, h3 {
 }
 h1, h2{
   text-align: center;
-  padding: 50px 0 24px 0;
 }
 h1 {
+  padding: 50px 0 24px 0;
   font-size: 28px;
 ;
 }
 h2 {
+  padding: 40px 0 24px 0;
   font-size: 20px;
 }
 h3 {
   font-size: 18px;
 }
-/*Social LInk*/
-#socialLinks{
-  display: flex;
-  justify-content: center;
-  font-size: 25px;
-  padding-top: 14px;
-}
-#sociaLinks, a :hover{
-  background-color:  red;
-}
-#socialLinks a{
-  padding: 0 8px;
-}
-/*footer e legenda da imagem*/
+/*footer e legenda da imagem(figcaption)*/
 footer,figcaption {
   color: #8f8f8f;
   font-size: 12px;
@@ -79,10 +67,34 @@ footer,figcaption {
 figcaption{
   text-align: right;
 }
+/*Social LInk*/
+#socialLinks{
+  display: flex;
+  justify-content: center;
+  
+  font-size: 24px;
+  padding-top: 14px;
+}
+#socialLinks a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px;
+  transition: background 0.2s;
+  border-radius: 50%;
+}
+#socialLinks a:hover{
+  background-color:#8f8f8f69;
+}
+/*Footer*/
 footer{
   display: flex;
   justify-content: center;
-  gap: 4px;
-  margin-left: 4px;
 }
+
+
+
+
+
 
